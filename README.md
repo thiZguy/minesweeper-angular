@@ -1,5 +1,5 @@
 # Minesweeper Game using Angular
-### Image: ![Game: ](src\assets\minesweeper_demo.png)
+### Image: ![Game: ](https://raw.githubusercontent.com/thiZguy/minesweeper-angular/main/src/assets/minesweeper_demo.png)
 
 ## how it was done:
 	* A helper class "minesweeper-game.class.ts" was created to ease the manipulation of the game logic within the Angular component
