@@ -4,8 +4,8 @@ const PEERS = [[-1, -1], [-1, 0], [-1, 1], [0, -1], [0, 1], [1, -1], [1, 0], [1,
 let visitedCells = new Map<string, Cell>();
 
 class MinesweeperGame {
-  private readonly gridSize: number = 10;
-  private readonly numMines: number = 10;
+  public readonly gridSize: number = 10;
+  public readonly numMines: number = 10;
   private handleGameOver: Function;
   private handleGameWon: Function;
   public grid: Cell[][] = this.generateGrid();
@@ -131,7 +131,7 @@ class MinesweeperGame {
     });
   }
 
-  private checkWin(): boolean {
+  public checkWin(): boolean {
     let totalUnrevealedCells = 0;
 
     for (let i = 0; i < this.gridSize; i++) {
